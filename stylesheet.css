@@ -1,0 +1,267 @@
+body {
+  padding: 0 10px;
+  margin: 10px auto;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-wrapper {
+  height: 40px;
+  width: 100%;
+}
+
+
+.header-logo img {
+  width: 90px;
+  float: left;
+  padding-left: 60px;
+}
+
+.header-list {
+  padding-right: 60px;
+  opacity: 0.8;
+}
+
+.header-list a {
+  text-decoration: none;
+  float: right;
+  width: 60px;
+  list-style: none;
+  font-size: 10px;
+  padding: 5px 5px;
+  box-shadow: inset 0 0px 0 -1px rgba(235, 230, 234, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px 10px;
+  margin: 0 5px;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+}
+
+.header-list a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: inset 0 -40px 0 -1px rgba(235, 230, 234, 0.5);
+  border-radius: 10px 10px;
+}
+
+.header-list a:active {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.glints-logo img {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-header{
+  width: 100%;
+  padding-bottom: 110px;
+  margin: 0 auto;
+}
+
+.main-header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.blue-img img{
+  position: relative;
+  width: 140px;
+  height: 130px;
+  left: -50px;
+  bottom: -20px;
+  z-index: 0;
+}
+
+.motto {
+  text-align: center;
+  text-indent: 0;
+  font-family: Baloo;
+}
+
+.motto h1 {
+  font-size: 50px;
+  line-height: 35px;
+}
+
+.motto span {
+  color: orange;
+}
+
+.motto p {
+font-weight: bold;
+font-size: 25px;
+line-height: 0;
+}
+
+.yellow-img img{
+  width: 120px;
+  height: 110px;
+  position: relative;
+  right: -40px;
+  bottom: -75px;
+  z-index: 0;
+}
+
+
+.curriculum-wrapper {
+  width: 100%;
+}
+
+.heading h1{
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-bottom: 2px solid rgba(238, 245, 237);
+  margin: 0 10px;
+  width: 98%;
+}
+
+
+.curriculums {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.curriculum {
+  width: 25%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.curriculum-logo img{
+  width: 110px;
+  height:110px;
+  cursor: pointer;
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.curriculum-logo img:hover{
+  cursor: pointer;
+  top: -3px;
+  box-shadow: 2px 1px 5px 0px rgba(235, 230, 234, 0.5);
+}
+
+.contact-wrapper{
+  z-index: -1;
+}
+
+figcaption h2{
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.description {
+  font-family: sans-serif;
+  font-size: 11px;
+  width: 100%;
+  line-height: 0;
+}
+
+.form-input-wrapper {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 9px;
+  padding-bottom: 50px;
+  margin: 0 5px;
+  width: 100%;
+}
+
+.email-form,.phone-form, .message-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+textarea ,input{
+  border: 1px solid rgba(238, 245, 237);
+  margin: 1rem;
+}
+
+textarea ,input,label {
+  margin: 0.8rem;
+  z-index: 2;
+}
+
+#email,#phone {
+  width: 10rem;
+}
+
+
+.message {
+  padding: 15px 100px;
+  background-color: rgba(238, 245, 237, 0.8);
+  color: grey;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.message:hover {
+  top: -3px;
+  box-shadow: dimgray 2px 5px 4px 0px ;
+}
+
+.message:active {
+  top: 0px;
+  opacity: 1;
+  box-shadow: none;
+}
+
+
+.footer-wrapper {
+  background-color: #fac903;
+  height: 140px;
+  color: white;
+}
+
+.footer-logo {
+ font-size: 20px;
+ float: left;
+ padding: 20px 20px;
+}
+
+.footer-list {
+  padding: 0 10px;
+  float: right;
+  font-family: sans-serif;
+}
+
+.footer-list li {
+  padding: 10px 10px;
+  margin: 0 10px;
+  list-style: none;
+  font-size: 10px;
+  box-shadow: inset 0 0px 0 -1px rgba(235, 230, 234, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px 10px;
+}
+
+.footer-list li:hover {
+  cursor: pointer;
+  box-shadow: inset 0 -40px 0 -1px rgba(235, 230, 234, 0.5);
+  border-radius: 10px 10px;
+}
+
+.footer-list li:active {
+  transition: 0.1s;
+  box-shadow: inset 0 -40px 0 -1px rgba(235, 230, 234, 0.8)
+}
