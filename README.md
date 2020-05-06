@@ -10,10 +10,6 @@ Recreating glintsXprogate week 2 project ("The Glints x Progate" webpage) by enh
 
 raihan(period.)rachman
 
-## License
-
-This project is licensed under the [Raihan Rachman] License - see the LICENSE.md file for details
-
 ## Acknowledgments
 
 * updatedlater..
